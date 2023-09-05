@@ -1,0 +1,10 @@
+echo '\nhttps://deno.land/manual@v1.36.4/basics/modules/integrity_checking#using---lock-and---lock-write-flags'
+
+echo 'rm ./deno.json && rm ./deno.lock'
+rm ./deno.json && rm ./deno.lock
+
+echo 'touch ./deno.json'
+echo 'run script21'
+echo 'run script3'
+
+echo '\n🥑 deno fmt'

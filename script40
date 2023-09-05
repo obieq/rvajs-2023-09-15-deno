@@ -1,0 +1,7 @@
+CMD='deno run --allow-net=deno.com https://deno.land/std@0.198.0/examples/curl.ts https://deno.land/std@0.198.0/examples/curl.ts'
+
+echo '\n********************************************************************************\n'
+echo $CMD
+echo '\n********************************************************************************\n'
+
+$CMD
